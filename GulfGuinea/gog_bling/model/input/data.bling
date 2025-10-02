@@ -1,0 +1,20 @@
+# BLING parameters
+ &ABIOTIC_PARMS
+ /
+
+ &BIOTIC_PARMS
+#  Pc_0             = 1.0E-5,
+ /
+
+ &BLING_FORCING
+  BLING_silicaFile = 'si_surf_clim_woa18_tpose6.bin',
+  BLING_ironFile   = 'fet_surfflux_mahowald_tpose6.bin',
+  BLING_pCO2       = 380.5E-6,
+#
+  apco2file        = 'atm_pco2_maunaloa_tpose6',
+  apco2startdate1  = 20010101,
+  apco2startdate2  = 000000,
+  apco2period      = 2635200,
+#
+ /
+
